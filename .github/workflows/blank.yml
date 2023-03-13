@@ -8,7 +8,7 @@ on:
     inputs:
       username:
         description: 'A username passed from the caller workflow'
-        default: 'john-doe'
+        default: 'vikrant'
         required: false
         type: string
   # Triggers the workflow on push or pull request events but only for the "main" branch
