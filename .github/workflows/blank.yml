@@ -30,7 +30,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Print the input name to STDOUT
-        run: echo "The username is ${{ github.event.inputs.username }}"
+        run: echo The name is ${{ github.event.inputs.username }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
