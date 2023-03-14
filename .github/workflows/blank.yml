@@ -9,7 +9,7 @@ on:
       username:
         description: 'A username passed from the caller workflow'
         default: 'vikrant'
-        required: false
+        required: true
         type: string
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
